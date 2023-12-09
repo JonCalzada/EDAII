@@ -1,0 +1,173 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Calzada Mat\'inez Jonathan Omar, Garc\'ia Lazcano Carlos David, Hern\'andez Jim\'enez Juan Carlos}
+\begin{document}
+\title{\ Algoritmos   \'Arboles binarios de b\'usqueda equilibrados (AVL) y arboles B m\'as.}
+\pagenumbering{gobble}
+
+	\huge Estructura de Datos y Algoritmos II
+	\\
+	\\
+	\\
+	\large Grupo: 5
+	\\
+	\\
+	Semestre: 2019-2
+	\\
+	\\
+	Profesor: M.C. Tista García Edgar
+	\\
+	\\
+	\textbf{Integrantes:}
+
+	\begin{itemize}
+		\item Calzada Mart\'inez Jonathan Omar
+		\\
+		\\
+		\item Jim\'enez Hern\'andez Juan Carlos
+		\\
+		\\
+		\item Garcia Lazcano Carlos David
+		\\
+		\\
+	\end{itemize}
+\section{TEMA}
+
+ Algoritmos   \'Arboles binarios de b\'usqueda equilibrados (AVL) y arboles B m\'as.
+ \section{Objetivo general:}
+ 
+  Que el alumno implemente \'arboles las estructuras de datos de tipo \'arbol y que desarrolle sus
+habilidades  en la programaci\'un orientada a objetos a trav\'es de la aplicaci\'un del concepto de \'arboles como
+estructuras de datos no lineales
+ \section{Objetivo particular:}
+  Lograr implementar los algoritmos de \'arbol binario balanceado y b+
+
+\section{Introducci\'on:}
+
+Los Datos Abstractos se tratan de  conjuntos de datos y / o objetos al que se le realizan operaciones. El TDA nos da un   un entorno  en  el que  cual se puede realizar las operaciones autorizadas, abstray\'endose de la manera en c\'omo est\'an implementadas dichas operaciones.
+\\
+\\
+\\
+El paradigma de orientaci\'on a objetos permite el encapsulamiento de los datos y las operaciones mediante la definici\'on de clases e interfaces, lo cual permite ocultar la manera en c\'omo ha sido implementado el TDA y solo permit\'e el acceso a los datos a trav\'es de las operaciones provistas por la interfaz.
+\\
+\\
+\\
+
+\section{Planteamiento del problema:}
+
+El estudio de los arboles b y b+   es un tema de importancia, ya que podr\'ia facilitar mucho la forma en la que se resuelven problemas computacionales en relaci\'un a las bases de datos para poder ejecutar las querys m\'as r\'apido. El sistema responde m\'as r\'apido porque no tiene que hacer validaciones por cada elemento, sino m\'as bien por bloques, si el criterio especificado entra en el rango de este para sustraerlo. 
+Estudiar y entender los arboles Binarios de b\'usqueda equilibrados y los arboles B+.
+\\
+\\
+\\
+\section{Hi\'otesis:}
+  Los \'arboles B tienen ventajas sustanciales sobre otras implementaciones cuando el tiempo de acceso a los nodos excede al tiempo de acceso entre nodos. Este caso se da usualmente cuando los nodos se encuentran en dispositivos de almacenamiento secundario como los discos r\'igidos.
+ \\
+\\
+\\
+\section{ ¿Qu\'e es un \'arbol Binario?}
+En los tipos abstractos de datos lineales existen exactamente un elemento previo y otro siguiente (excepto para el primero y el \'ultimo, si los hay); en las estructuras no lineales, como conjuntos o \'arboles, este tipo de secuencialidad no existe, aunque en los \'arboles existe una estructura jer\'arquica, de manera que un elemento tiene un solo predecesor, pero varios sucesores. 
+\\
+Una exploraci\'un algo amplia en el campo de la ciencia de la computaci\'un nos lleva a situaciones en que las representaciones lineales son inadecuadas, tanto en sentido conceptual como pr\'actico. Un paso importante lo representan los \'arboles binarios, y el siguiente vendr\'a dado con el estudio de la noci\'un general de \'arbol. En cap/'itulos posteriores, lo extenderemos hasta llegar a los grafos.
+\\
+\\
+\\ 
+Un \'arbol impone una estructura jer\'arquica sobre una colecci\'un de objetos. Ejemplos claros de utilizaci\'un de \'arboles se presentan tanto dentro como fuera del \'area de computaci\'un (indices de libros, \'arboles geneal\'ugicos, etc.); en Inform\'atica constituyen una de las estructuras m/as utilizadas, con aplicaciones que van desde los \'arboles sint\'acticos utilizados para la representaci\'un y/o interpretaci\'un de t\'erminos de un lenguaje o expresiones aritm\'eticas, pasando por los arboles de activaci\'un de procedimientos recursivos, hasta la representaci\'un de datos que se desea mantener ordenados con un tiempo de acceso relativamente bajo. En general, se usar\'an \'arboles siempre que se quiera representar informaci\'un jerarquizada, cuando esta converja en un solo punto.
+\\
+\\
+\\
+Se define un \'arbol binario como un conjunto finito de elementos (nodos) que bien esta vac\'io o esta formado por una ra\'iz con dos arboles binarios disjuntos, es decir, dos descendientes directos llamados subarbol izquierdo y subarbol derecho.
+Los \'arboles binarios )tienen una especial importancia.
+Las aplicaciones de los arboles binarios son muy variadas ya que se les puede utilizar para representar una estructura en la cual es posible tomar decisiones con dos opciones en distintos puntos.
+\\
+\\
+\\
+\textbf{\'arbol binario de b\'usqueda.}
+\\
+
+Los \'arboles binarios se utilizan frecuentemente para representar conjuntos de datos cuyos elementos se identifican por una clave \'unica. Si el \'arbol est\'a organizado de tal manera que la clave de cada nodo es mayor que todas las claves su subarbol izquierdo, y menor que todas las claves del subarbol derecho se dice que este \'arbol es un \'arbol binario de b\'usqueda.
+\\
+
+En 1972 se crearon los \'arboles B+ R.Bayer y E.McCreight.  Esto inicio por la necesidad de mantener indices en el almacenamiento externo para los accesos a bases de datos , esto quiere decir que, con el  problema de la lentitud  de estos dispositivos se quiere aprovechar la gran capacidad de almacenamiento para mantener una cantidad de informaci\'on muy alta organizada de manera que se pueda acceder a de forma m\'as r\'apida a las claves.
+\\
+\\
+Los m\'etodos y estructuras de datos nos permiten realizar b\'usquedas dentro de los datos en un tiempo de orden O(log2n). Por lo que  tenemos el caso de los \'arboles binarios de b\'usqueda equilibrada .Mientras que en memoria interna el tiempo de acceso a n datos almacenados  en distintas partes de la memoria es independiente de las direcciones que estos ocupen, en memoria externa es fundamental el acceder a datos situados en el mismo bloque para hacer que el tiempo de ejecuci\'on disminuye debido a que el tiempo depende del tiempo de acceso del dispositivo externo, si se disminuye  el n\'umero de accesos a disco el tiempo resultante de ejecuci\'on de nuestra b\'usqueda se ver\'a fuertemente recortado. Uno de los factores determinantes en el tiempo de ejecuci\'on es el n\'umero total de accesos, de forma que aunque dicho numero mero pueda ser acotado por un orden de eficiencia es muy importante tener en cuenta el n\'umero real ya que el tiempo para realizar un acceso es suficientemente alto como para que dos algoritmos pese a tener un mismo orden, puedan tener en un caso un tiempo real de ejecuci\'on aceptable y en otro inadmisible.
+\\
+\\
+\\
+De esta forma, si construimos un \'arbol binario de b\'usqueda equilibrado en disco, los accesos a disco ser\'an para cargar en memoria uno de los nodos, es decir,  para poder llevar a memoria una cantidad de informaci\'un suficiente como para poder decidir entre dos ramas. Los \'arboles de m\'ultiples ramas tienen una altura menor que los \'arboles binarios pues pueden contener m\'as de dos hijos por nodo, adem\'as de que puede hacerse corresponder los nodos con las p\'aginas en disco de forma que al realizar un \'unico acceso se leen un n\'umero alto de datos que permiten elegir un camino de b\'usqueda no entre dos ramas, sino en un n\'umero considerablemente mayor de ellas. Adem\'as, este tipo de \'arboles hace m\'as f\'acil y menos costoso conseguir equilibrar el \'arbol.
+\\
+\\
+\\
+\section{Aplicaciones}
+Los \'arboles son mayormente utilizados para el sistema de archivos as\'i como para  poder facilitar la realizaci\'on en bases de datos.
+\section{Metodolog\'ia}
+Para poder realizar el \'arbol Binario de b\'usqueda equilibrado. Se comenzado a analizar el algoritmo realizado para la pr\'actica nueve de laboratorio en donde de ah\'i partimos para realizar el \'arbol binario de b\'usqueda balanceado.
+\\
+\\
+Para el algoritmo de el \'arbol B m\'as se analiz\'u de igual manera el \'arbol B m\'as proporcionado por el profesor y de ah\'i se parti\'u para poder implementar el \'arbol B+.
+\\
+\\
+\\
+\section{Conclusiones:}
+\textbf{Calzada Mart\'inez Jonathan Omar:}
+\\
+\\
+No s\'e logr\'o llegar a los objetivo, debido a un mal an\'alisis del problema ya que al principio no sab\'iamos por d\'onde empezar y esto nos afect\'o bastante por lo que nos hizo perder tiempo y tardar en empezar a codificar el programa. Sin embargo s\'i se pudo implementar  programa de el \'arbol binario de b\'usqueda equilibrado por lo que se aprendi\'o de manera te\'orica y pr\'actica y esto nos ayud\'o a fortalecer nuestras habilidades. 
+Otra cosa que se aprendi\'o fue el manejo de C(sharp) y nos dimos cuenta de que no difiere mucho de el lenguaje java, esto inici\'o como una prueba y termin\'o siendo el lenguaje con el que se implement\'o el \'arbol de b\'usqueda equilibrado. 
+\\
+\\
+\textbf{Garc\'ia Lazcano Carlos David:}
+\\
+\\
+Puesto que ya se contaba con un conocimiento acerca de ambos \'arboles, se supone que se nos deb\'ia de facilitar la implementaci\'on, pero no fue as\'i, se batallo demasiado con el \'arbol b+, incluso se lleg\'o a tener varios modelos, pero ninguno funcional.
+Debido a ciertos factores no se logr\'o lo esperado; puede que de tener una mejor planificaci\'on se hubiesen cumplido los objetivos principales; no es que no hayamos trabajado en equipo, mas bien lo que nos falt\'o a cada quien fue tomar en ciertas ocasiones determinaci\'on.
+Por otro lado aprendimos un poco de C(sharp), no difiere de Java, al menos hasta donde pudimos trabajar, y est\'a bien puesto que debemos de manejar varios lenguajes de programaci\'on.  Debemos de mejorar nuestra aptitudes en cuanto a dirigir a nuestros compa\'neros de vez en cuando.
+\\
+\\
+\textbf{Hernandez Jimenez Juan Carlos:}
+\\
+\\
+\\
+No pudimos lograr al objetivo por diferentes razones. Si bien no logramos terminar en forma y tiempo, pusimos nuestro empenio, tambi\'en conoc\'iamos como funcionaban  te\'oricamente, pero el desarrollo se complic\'o demasiado en la \'ultima recta del proyecto, todo lo dem\'as se hizo de una manera muy buena, se realizaron los diagramas de UML , el uso de clases, las instancias, solo se tuvieron tropiezos que nos impidieron terminar bien por completo el c\'odigo. Aprendimos C(sharp) que eso nos ayuda a nuestra formaci\'on de ingenieros y al dominio de los tantos lenguajes de programaci\'on que debemos de aprender a lo largo de la carrera.
+\\
+\\
+\section{Bibliografia}
+
+@ELECTRONIC{mar,
+  author = {{Exposito Lopez Daniel, Abraham Garc\'ia Soto, Martin Gomez Antonio Jose}},
+  year = {2019},
+  title = {\texttt{http://decsai.ugr.es/~jfv/ed1/tedi/cdrom/docs}, 22 de {A}bril de 2019}
+}
+
+
+\begin{itemize}
+
+	\item Joyanes A.,Luis (2008). Estructuras de  datos en java.Madrid,Espania.pp,403
+		
+		
+		\item Lenguaje Java Avanzado. Archivo PDF Pag. 34-40. 
+
+
+		\item http://www.utm.mx/~jahdezp/archivos%20estructuras/balanceo%20de%20arboles.pdf
+
+
+
+		\item https://users.dcc.uchile.cl/~bebustos/apuntes/cc30a/TDA/ 
+
+
+		\item	https://es.slideshare.net/rennybatista/java-colecciones
+		
+		
+		
+		\item Tutorial de Latex. M\'ultiples p\'aginas. https://www.latex-tutorial.com/
+	\end{itemize}	
+	
+	
+\end{document}

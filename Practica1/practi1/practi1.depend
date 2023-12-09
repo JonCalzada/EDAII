@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1549569230 source:c:\users\jonathan\desktop\2019-2\edaii\practica1\practi1\main.c
+	<stdio.h>
+	"ordenamientos.h"
+
+1549569317 c:\users\jonathan\desktop\2019-2\edaii\practica1\practi1\ordenamientos.h
+	"utilidades.h"
+
+1549569442 c:\users\jonathan\desktop\2019-2\edaii\practica1\practi1\utilidades.h
+	<stdio.h>
+

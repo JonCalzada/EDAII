@@ -1,0 +1,8 @@
+[rxn],[ovp],[ixc],[mfh],[zxf],[dnn],[qoq],[ohe],[xij],[haq],[kgz],[jdg],[fby],[sbx],[uke],[okw],[uxa],[wrv],[flx],[tvl],[isq],[ifw],[fby],[flo],[ytb],[mqh],[jex],[hjf],[awd],[whi],[opo],[wcp],[lan],[trv],[dbm],[uem],[vln],[izz],[tkv],[qky],[wqn],[gfz],[rhk],[aqj],[old],[fxt],[brz],[xwy],[sev],[tyo],
+[ksf, ovp],[mfh, oth],[dnn, eei],[ohe, ttg],[aqa, haq],[jdg, vzn],[hxd, sbx],[okw, wul],[tyq, wrv],[kge, tvl],[ifw, zys],[flo, yyb],[mqh, wbx],[gab, hjf],[bhe, whi],[hav, wcp],[llr, trv],[opi, uem],[izz, nao],[qky, sfm],[ecv, gfz],[aqj, gfn],[fxt, ttw],[gdj, xwy],[okk, tyo],
+[ixc, mfh, oth, pdk],[iqa, ohe, qoq, ttg],[jdg, kgz, kpw, vzn],[okw, szw, uke, wul],[bef, flx, kge, tvl],[fby, flo, jeu, yyb],[gab, hjf, jex, lsx],[hav, kol, opo, wcp],[aea, dbm, opi, uem],[bys, qky, sfm, tkv],[aqj, gfn, pfn, rhk],[brz, gdj, nxk, xwy],
+[dnn, eei, fus, iqa, ohe, qoq, ttg, zxf],[bxg, fby, hxd, okw, sbx, szw, uke, wul],[fby, flo, ifw, iiu, isq, jeu, yyb, zys],[awd, bhe, hav, kki, kol, opo, wcp, whi],[bys, izz, kzq, nao, qky, sfm, tkv, vln],[brz, btp, fxt, gdj, nxk, old, ttw, xwy],
+[aqa, bxg, fby, fol, haq, hxd, jdg, kgz, kpw, okw, sbx, szw, uke, vzn, wul, xij],[awd, bhe, gab, hav, hjf, jex, kki, kol, lsx, mqh, opo, wbx, wcp, whi, ytb, zyd],[aqj, brz, btp, ecv, fxt, gdj, gfn, gfz, nxk, old, owq, pfn, rhk, ttw, wqn, xwy],
+[alp, awd, bef, bhe, fby, flo, flx, gab, hav, hjf, ifw, iiu, isq, jeu, jex, kge, kki, kol, lsx, mqh, opo, tvl, tyq, uxa, wbx, wcp, whi, wrv, ytb, yyb, zyd, zys],[okk, sev, tyo, zye],
+[aea, aqj, brz, btp, bys, dbm, ecv, fxt, gdj, gfn, gfz, izz, jqn, kzq, lan, llr, nao, nxk, okk, old, opi, owq, pfn, qky, rhk, sev, sfm, tkv, trv, ttw, tyo, uem, vln, wqn, xwy, zye],
+

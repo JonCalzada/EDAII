@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550282635 source:c:\users\jonathan\desktop\2019-2\edaii\practica2\ejer2\practica2_ejer2\main.c
+	<stdio.h>
+	"utilidades.h"
+	<time.h>
+
+1549334951 c:\users\jonathan\desktop\2019-2\edaii\practica2\ejer2\practica2_ejer2\utilidades.h
+	<stdio.h>
+

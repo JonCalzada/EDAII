@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1558995969 source:d:\users\jonathan\desktop\2019-2\edaii\proyectos\proyecto_3\bubble\main.c
+	<omp.h>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+

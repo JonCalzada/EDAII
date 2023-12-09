@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include "ordenamientos.h"
+int main (){
+int arr[]={20,65,24,2,56,77,21,11,78,40};
+int size =sizeof(arr)/sizeof(arr[0]);
+bubbleSort(arr,size);
+//quickSort(arr,0,size-1);
+printArray(arr,size);
+
+}

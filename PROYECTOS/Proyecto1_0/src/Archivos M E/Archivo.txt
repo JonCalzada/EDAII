@@ -1,0 +1,32 @@
+iyb,rxn,ksf,ovp,pdk,ixc,oth,mfh,fus,zxf,eei,dnn,iqa,qoq,ttg,ohe,fol,xij,aqa,haq,kpw,kgz,vzn,jdg,bxg,fby,hxd,sbx,szw,uke,wul,okw,alp,uxa,tyq,wrv,bef,flx,kge,tvl,iiu,isq,zys,ifw,jeu,fby,yyb,flo,zyd,ytb,wbx,mqh,lsx,jex,gab,hjf,kki,awd,bhe,whi,kol,opo,hav,wcp,jqn,lan,llr,trv,aea,dbm,opi,uem,kzq,vln,nao,izz,bys,tkv,sfm,qky,owq,wqn,ecv,gfz,pfn,rhk,gfn,aqj,btp,old,ttw,fxt,nxk,brz,gdj,xwy,zye,sev,okk,tyo,
+Iteracion #1
+[iyb, rxn],[ksf, ovp],[ixc, pdk],[mfh, oth],[fus, zxf],[dnn, eei],[iqa, qoq],[ohe, ttg],[fol, xij],[aqa, haq],[kgz, kpw],[jdg, vzn],[bxg, fby],[hxd, sbx],[szw, uke],[okw, wul],[alp, uxa],[tyq, wrv],[bef, flx],[kge, tvl],[iiu, isq],[ifw, zys],[fby, jeu],[flo, yyb],[ytb, zyd],[mqh, wbx],[jex, lsx],[gab, hjf],[awd, kki],[bhe, whi],[kol, opo],[hav, wcp],[jqn, lan],[llr, trv],[aea, dbm],[opi, uem],[kzq, vln],[izz, nao],[bys, tkv],[qky, sfm],[owq, wqn],[ecv, gfz],[pfn, rhk],[aqj, gfn],[btp, old],[fxt, ttw],[brz, nxk],[gdj, xwy],[sev, zye],[okk, tyo],
+Fin iteracion
+
+Iteracion #2
+[iyb, ksf, ovp, rxn],[ixc, mfh, oth, pdk],[dnn, eei, fus, zxf],[iqa, ohe, qoq, ttg],[aqa, fol, haq, xij],[jdg, kgz, kpw, vzn],[bxg, fby, hxd, sbx],[okw, szw, uke, wul],[alp, tyq, uxa, wrv],[bef, flx, kge, tvl],[ifw, iiu, isq, zys],[fby, flo, jeu, yyb],[mqh, wbx, ytb, zyd],[gab, hjf, jex, lsx],[awd, bhe, kki, whi],[hav, kol, opo, wcp],[jqn, lan, llr, trv],[aea, dbm, opi, uem],[izz, kzq, nao, vln],[bys, qky, sfm, tkv],[ecv, gfz, owq, wqn],[aqj, gfn, pfn, rhk],[btp, fxt, old, ttw],[brz, gdj, nxk, xwy],[okk, sev, tyo, zye],
+Fin iteracion
+
+Iteracion #3
+[ixc, iyb, ksf, mfh, oth, ovp, pdk, rxn],[dnn, eei, fus, iqa, ohe, qoq, ttg, zxf],[aqa, fol, haq, jdg, kgz, kpw, vzn, xij],[bxg, fby, hxd, okw, sbx, szw, uke, wul],[alp, bef, flx, kge, tvl, tyq, uxa, wrv],[fby, flo, ifw, iiu, isq, jeu, yyb, zys],[gab, hjf, jex, lsx, mqh, wbx, ytb, zyd],[awd, bhe, hav, kki, kol, opo, wcp, whi],[aea, dbm, jqn, lan, llr, opi, trv, uem],[bys, izz, kzq, nao, qky, sfm, tkv, vln],[aqj, ecv, gfn, gfz, owq, pfn, rhk, wqn],[brz, btp, fxt, gdj, nxk, old, ttw, xwy],[okk, sev, tyo, zye],
+Fin iteracion
+
+Iteracion #4
+[dnn, eei, fus, iqa, ixc, iyb, ksf, mfh, ohe, oth, ovp, pdk, qoq, rxn, ttg, zxf],[aqa, bxg, fby, fol, haq, hxd, jdg, kgz, kpw, okw, sbx, szw, uke, vzn, wul, xij],[alp, bef, fby, flo, flx, ifw, iiu, isq, jeu, kge, tvl, tyq, uxa, wrv, yyb, zys],[awd, bhe, gab, hav, hjf, jex, kki, kol, lsx, mqh, opo, wbx, wcp, whi, ytb, zyd],[aea, bys, dbm, izz, jqn, kzq, lan, llr, nao, opi, qky, sfm, tkv, trv, uem, vln],[aqj, brz, btp, ecv, fxt, gdj, gfn, gfz, nxk, old, owq, pfn, rhk, ttw, wqn, xwy],[okk, sev, tyo, zye],
+Fin iteracion
+
+Iteracion #5
+[aqa, bxg, dnn, eei, fby, fol, fus, haq, hxd, iqa, ixc, iyb, jdg, kgz, kpw, ksf, mfh, ohe, okw, oth, ovp, pdk, qoq, rxn, sbx, szw, ttg, uke, vzn, wul, xij, zxf],[alp, awd, bef, bhe, fby, flo, flx, gab, hav, hjf, ifw, iiu, isq, jeu, jex, kge, kki, kol, lsx, mqh, opo, tvl, tyq, uxa, wbx, wcp, whi, wrv, ytb, yyb, zyd, zys],[aea, aqj, brz, btp, bys, dbm, ecv, fxt, gdj, gfn, gfz, izz, jqn, kzq, lan, llr, nao, nxk, old, opi, owq, pfn, qky, rhk, sfm, tkv, trv, ttw, uem, vln, wqn, xwy],[okk, sev, tyo, zye],
+Fin iteracion
+
+Iteracion #6
+[alp, aqa, awd, bef, bhe, bxg, dnn, eei, fby, fby, flo, flx, fol, fus, gab, haq, hav, hjf, hxd, ifw, iiu, iqa, isq, ixc, iyb, jdg, jeu, jex, kge, kgz, kki, kol, kpw, ksf, lsx, mfh, mqh, ohe, okw, opo, oth, ovp, pdk, qoq, rxn, sbx, szw, ttg, tvl, tyq, uke, uxa, vzn, wbx, wcp, whi, wrv, wul, xij, ytb, yyb, zxf, zyd, zys],[aea, aqj, brz, btp, bys, dbm, ecv, fxt, gdj, gfn, gfz, izz, jqn, kzq, lan, llr, nao, nxk, okk, old, opi, owq, pfn, qky, rhk, sev, sfm, tkv, trv, ttw, tyo, uem, vln, wqn, xwy, zye],
+Fin iteracion
+
+Iteracion #7
+[aea, alp, aqa, aqj, awd, bef, bhe, brz, btp, bxg, bys, dbm, dnn, ecv, eei, fby, fby, flo, flx, fol, fus, fxt, gab, gdj, gfn, gfz, haq, hav, hjf, hxd, ifw, iiu, iqa, isq, ixc, iyb, izz, jdg, jeu, jex, jqn, kge, kgz, kki, kol, kpw, ksf, kzq, lan, llr, lsx, mfh, mqh, nao, nxk, ohe, okk, okw, old, opi, opo, oth, ovp, owq, pdk, pfn, qky, qoq, rhk, rxn, sbx, sev, sfm, szw, tkv, trv, ttg, ttw, tvl, tyo, tyq, uem, uke, uxa, vln, vzn, wbx, wcp, whi, wqn, wrv, wul, xij, xwy, ytb, yyb, zxf, zyd, zye, zys],
+Fin iteracion
+
+Iteracion #8
+[aea, alp, aqa, aqj, awd, bef, bhe, brz, btp, bxg, bys, dbm, dnn, ecv, eei, fby, fby, flo, flx, fol, fus, fxt, gab, gdj, gfn, gfz, haq, hav, hjf, hxd, ifw, iiu, iqa, isq, ixc, iyb, izz, jdg, jeu, jex, jqn, kge, kgz, kki, kol, kpw, ksf, kzq, lan, llr, lsx, mfh, mqh, nao, nxk, ohe, okk, okw, old, opi, opo, oth, ovp, owq, pdk, pfn, qky, qoq, rhk, rxn, sbx, sev, sfm, szw, tkv, trv, ttg, ttw, tvl, tyo, tyq, uem, uke, uxa, vln, vzn, wbx, wcp, whi, wqn, wrv, wul, xij, xwy, ytb, yyb, zxf, zyd, zye, zys],
+Fin iteracion
